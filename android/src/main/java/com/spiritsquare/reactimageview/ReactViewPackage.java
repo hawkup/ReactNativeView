@@ -27,7 +27,7 @@ public class ReactViewPackage implements ReactPackage {
             ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
 
-        modules.add(new Module(reactContext));
+        modules.add(new ReactViewModule(reactContext));
 
         return modules;
     }
