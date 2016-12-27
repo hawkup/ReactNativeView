@@ -20,7 +20,7 @@ public class ReactViewModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "Boilerplate";
+        return "ReactImageView";
     }
 
     @Override
